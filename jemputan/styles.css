@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+}
+
+.invitation-card {
+    background-color: #ffffff;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s; /* Transition for scale and shadow */
+}
+.wedding-image {
+    width: 70%; /* Makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    margin-bottom: 20px; /* Adds space below the image */
+}
+.invitation-card:hover {
+    transform: scale(1.02); /* Slightly increase the size */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+h1 {
+    color: #c71585;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #333;
+    margin: 10px 0;
+}
+
+h3 {
+    color: #c71585;
+    margin: 10px 0;
+}
+
+.date, .time, .venue, .rsvp {
+    color: #555;
+    margin: 5px 0;
+    transition: color 0.3s; /* Transition for text color */
+}
+
+.date:hover, .time:hover, .venue:hover, .rsvp:hover {
+    color: #c71585; /* Change color on hover */
+}
+
+.rsvp-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #c71585;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Transition for button background */
+}
+
+.rsvp-link:hover {
+    background-color: #b0126e; /* Darken button on hover */
+}
